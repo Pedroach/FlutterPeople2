@@ -126,7 +126,7 @@ class HomePageState extends State<HomePage> {
         itemCount: data == null ? 0 : data.length,
         itemBuilder: (BuildContext context, int index){
           return new Card(
-            child: new Text(data[index]["Name"]),
+            child: new Text(data[index]["Birthday"]),
           );
         },
       ),
